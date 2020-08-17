@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite thread-count="4" name="TestNG POC" parallel="tests"
+	configfailurepolicy="continue">
+	<test name="Demo">
+		<!-- <parameter name ="sUsername" value="ratulgrover"/> <parameter name 
+			= "sPassword" value="move2NOVI"/> -->
+		<!-- <classes> <class name="TestNGFramework.Grizzly"/> <class name="TestNGFramework.Camel"/> 
+			</classes> -->
+		<!-- <packages>
+
+			<package name="SGW_Tests" />
+
+
+		</packages> -->
+		<classes>
+		<!-- <class name="sample.App"  /> -->
+		<class name="sample.Warning_Label_AmericanSpirits_001"  /> 
+	
+		</classes> 
+	</test>
+</suite>
